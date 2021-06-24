@@ -1,0 +1,75 @@
+  body {
+    background-image: url("uganda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px;
+  }
+  .header-container {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+  }
+  .intro {
+    display: flex;
+  }
+  #profile-picture {
+    width: 30rem;
+    height: 35rem;
+  }
+  #intro-text {
+    width: 30rem;
+    text-align: left;
+    padding: 0 1rem;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 1.75rem;
+    color: white;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 20rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 1.5rem;
+    opacity: 1;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px #aaaaaa;
+    padding: 25px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+  }
+  .card:hover {
+    transition-duration: 1.5s;
+    box-shadow: 0 0 3px 1px #aaaaaa;
+    opacity: 1;
+  }
+  .card-header {
+    text-align: center;
+    padding: 1px;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5rem;
+  }
+  .card-image > img {
+    width: 100%;
+    height: 15rem;
+  }
+  .card-description {
+    padding: 10px;
+    font-family: 'Sofia', cursive;
+  }
+  .button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
